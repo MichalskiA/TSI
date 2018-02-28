@@ -1,0 +1,32 @@
+body {
+    background-color: aqua;
+}
+
+#listafilmy {
+    list-style: circle;
+}
+
+#listaDokumenty {
+    list-style: square;
+}
+
+#listaGwiazdy {
+    list-style-image: url("../img/star.png")
+}
+#spisTresci {
+    list-style: none;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: chocolate;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: magenta;
+}

@@ -1,0 +1,30 @@
+body {
+    height: 1000px;
+    width: 700px;
+    background-color: #55c76f
+}
+#baner {
+    height: 30%;
+    background-color: red;
+}
+
+#log1 {
+    height: 70%;
+    width: 30%;
+    float: left;
+    background-color: skyblue;
+}
+
+#log2 {
+    height: 70%;
+    width: 30%;
+    float: left;
+    background-color: bisque;
+}
+
+#log3 {
+    height: 70%;
+    width: 30%;
+    background-color: fuchsia;
+    float: left;
+}
