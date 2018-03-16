@@ -11,4 +11,4 @@ var podstawa = Number(prompt("Podaj długość podstawy trójkąta"));
 var wysokosc = Number(prompt("Podaj wysokość trójkąta"));
 var oblicz = 0.5 * podstawa * wysokosc;
 oblicz = oblicz.toFixed(2);
-wynik.innerHTML = 'Pole trójkąta wynosi:' + oblicz + 'cm<sup>2</sup>';
+wynik.innerHTML = 'Pole trójkąta wynosi: ' + oblicz + 'cm<sup>2</sup>';
