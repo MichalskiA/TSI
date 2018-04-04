@@ -1,6 +1,8 @@
 #wynik {
-    background-color: black;
-    color: white;
-    width: 200px;
+    font-family: fantasy;
+    font-size: 100px;
+    background-color: #ff8000;
+    color: #000000;
+    width: 100%;
     text-align: center;
 }
