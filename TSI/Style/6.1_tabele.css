@@ -1,0 +1,38 @@
+td{
+    border: solid 1px black;
+}
+body{
+    font-family: arial, Verdana;
+    color: black;
+}
+table{
+    width: 600px;
+}
+th, td{
+    padding: 7px 10px 10px 10px;
+}
+th{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;
+    color: coral
+}
+.even{
+    background-color: lightgray;
+}
+.java, .js, .zarobki{
+    background-color: whitesmoke;
+}
+td:hover{
+    background-color: black;
+    color: white;
+}
+.money{
+    text-align: right
+}
+#i7{
+    font-weight: bold
+}
