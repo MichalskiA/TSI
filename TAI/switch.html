@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>switch</title>
+</head>
+<body>
+   <script>
+       var dzientyg = Number(prompt('Podaj dzien tygodnia', 'np. 3 - sroda'));
+       switch (dzientyg){
+           case 1:
+               document.write('Dzisiaj jest poniedziałek');
+               break;
+           case 2:
+               document.write('Dzisiaj jest wtorek');
+               break;
+           case 3:
+               document.write('Dzisiaj jest środa');
+               break;
+           case 4:
+               document.write('Dzisiaj jest czwartek');
+               break;
+           case 5:
+               document.write('Dzisiaj jest piątek');
+               break;
+           case 6:
+               document.write('Dzisiaj jest sobota');
+               break;
+           case 7:
+               document.write('Dzisiaj jest niedziela');
+               break;
+           default:
+               alert('Błędne dane')
+       }
+   </script>
+
+</body>
+</html>
