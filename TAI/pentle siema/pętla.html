@@ -9,10 +9,51 @@
      /*   for (var i=0; i<=100; i++){
             document.write(i + "<br")
             
-        } */
-        for (var i=5; i<=100; i=i+5){
+        } 
+          for (var i=5; i<=100; i=i+5){
             document.write(i + "<br>")  
-        }
+        } */
+/*       
+          for (var i=3; i++; i<=20; i++){
+              if (i%2 == 0)
+                  document.write(i + " ");
+          }*/
+       
+       /*ZAD. 2: Wyświetl liczby nieparzyste z przedziału <20, -1> w formacie: liczba nieparzysta:... 
+       Każda liczba ma być wypisana od nowej linii liczby mają być posortowane malejąco*/
+           
+/*          for (var i=20; i>=-1; i--){
+              if (i%2 != 0)
+              document.write('Liczba nieparzysta: ' + i + "<br>");
+          }*/
+       /*ZAD. 3: Użytkownik podaje z klawiatury wartość początkową i końcową przedziału. Wybiera za pomocąprzycisku radio czy dane mają być wyświetlane rosnąco czy malejąco. Wyświetl domyślnie dane posortowane rosnąco. Wybierając przycisk będzie modyfikowanie i sortowanie */
+            
+            document.write('div id="wyswietl">');
+            document.write('<input type="radio" checked name="sort" id="r"> rosnąco ');
+            document.write('<input type="radio" checked name="sort" id="m"> malejąco <br> ');
+            var wartoscpocz = Number(prompt ('Podaj wartość początkową'));
+            var wartosckon  = Number(prompt ('Podaj wartość końcową'));
+            var text="";
+                function spr(){
+                    text=""
+                    if(r.checked == true){
+                for (var i=wartoscpocz; i<=wartosckon; i++){
+                    text +=i;
+                    //console.log(text);
+                }
+                else if (m.checked == true){
+                    for (var i= wartosckon; i> wartoscpocz; i--);{
+                    text +=i;
+                    //console.log(text);
+                }}
+                    wyswietl.textContent = text;
+                }
+
+       
+                r. addEventListener('click', spr);
+                m. addEventListener('click', spr);
+       
+            
    </script>
     
 </body>
